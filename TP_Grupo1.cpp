@@ -16,6 +16,13 @@ struct stock {
     producto vecProd[10];
 };
 
+//Punto 2
+
+struct pedido {
+    int id_producto;
+    int cantidad;
+};
+
 stock estanteria [filas][columnas];
 
 int Consolidar[20];
